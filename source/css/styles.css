@@ -2,7 +2,7 @@ body{
     padding: 0px;
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
-    color:cornsilk;
+    color:rgb(255, 252, 241);
     background-color: rgb(255, 1, 1);
 }
 .flex-box-container {
@@ -61,4 +61,35 @@ body{
 .video-st {
     max-width: 100%;
     padding-top: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: none;
 }

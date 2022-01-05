@@ -5,25 +5,25 @@ body{
     color:rgb(255, 252, 241);
     background-color: rgb(255, 1, 1);
 }
+.respon-container-flex{
+    display: none;
+}
 .flex-box-container {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(59, 59, 59);
     text-align: center;
     align-items: center;
     align-content: center;
-    /*flex-wrap: wrap;*/
 }
-@media screen and (max-width: 1400px){
-    .flex-box-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        background-color: rgb(20, 20, 20);
-        text-align: center;
-        align-items: center;
-        align-content: center;
-    }
+.pupUpMenuBar{
+    display: none;
+    align-items: center;
+    text-align: center;
+}
+.respon-container-flex img{
+    width: 5%;
+    margin: 2%;
 }
 .flex-box-container-body{
     display: flex;
@@ -54,21 +54,6 @@ body{
 .aside-flex-container img,.description{
     width: 50%;
 }
-@media screen and (max-width: 1400px){
-    .aside-flex-container{
-        background-color: rgb(0, 0, 0);
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        text-align: center;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-    }
-    .aside-flex-container img,.description{
-        width: 100%;
-    }
-}
 .description{
     margin:10%;
 }
@@ -88,7 +73,47 @@ body{
     max-width: 80%;
     padding-top: 3%;
 }
-
+#displayManuRespNone{
+    display: none;
+}
+.menubar img {
+    max-width: 5%;
+}
+@media screen and (max-width: 1400px){
+    .flex-box-container {
+        display: none;
+        background-color: rgb(59, 59, 59);
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+    .tittle-resp-menu{
+        width: 50%;
+        font-size: 2.5vh;
+    }
+    .aside-flex-container{
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .aside-flex-container img,.description{
+        width: 100%;
+    }
+    .respon-container-flex{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+        background-color: rgb(59, 59, 59);
+    }
+}
 
 
 

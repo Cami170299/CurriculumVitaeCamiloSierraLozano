@@ -15,8 +15,13 @@
 </head>
 <body>
 
+<div class="respon-container-flex" id="displayManuRespFlex" onclick="displayMenu()">
+        <p class="tittle-resp-menu">CAMILO SIERRA</p>
+        <img src="source/media/menu.png" alt="menuslide">    
+</div>
+
 <nav>
-    <div class="flex-box-container">
+    <div class="flex-box-container" id="flexBoxContainer">
         <div class="menubar">
             APTITUDES
         </div>
@@ -32,11 +37,18 @@
         <div class="menubar">
             PROYECTS & WORK
         </div>
+        <div  id="displayManuRespNone" class="menubar" onclick="hideMenu()">
+            <img src="source/media/upload.png" alt="upload">
+        </div>
     </div>
 </nav>
 
+
+
+
+
 <div class="flex-box-container-body">
-    <video src="source/media/sign.mp4" muted autoplay="autoplay" class="video-st"> </video>
+    <video src="source/media/sign.mp4" muted autoplay="autoplay" class="video-st" poster="https://raw.githubusercontent.com/Cami170299/CurriculumVitaeCamiloSierraLozano/main/source/media/Capture.PNG"> </video>
     <hr>
     <p>Camilo Sierra </p>
 </div>
@@ -47,14 +59,16 @@
     <div class="description">
         <span class="asidetitle">A quick description...</span>
         <hr>
-        I’m a double technical degree in Marketing, business administration and Computing Support programmer with enthusiasm and spirit of growth. 
+            I’m a double technical degree in Marketing, business administration and Computing Support programmer with enthusiasm and spirit of growth. 
     </div>
 </div>
 
 
 
 
-    <footer><a href='https://www.freepik.com/photos/computer'>Computer photo created by lucabravo - www.freepik.com</a></footer>
+    <footer><a href='https://www.freepik.com/photos/computer'>Computer photo created by lucabravo - www.freepik.com</a>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </footer>
 </body>
 <script src="source/js/script.js"></script>
 </html>

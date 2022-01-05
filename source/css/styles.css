@@ -2,16 +2,48 @@ body{
     padding: 0px;
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
-    color:rgb(255, 252, 241);
-    background-color: rgb(255, 1, 1);
+    color:#fffcf1;
+    background-color: rgb(0, 0, 0);
 }
+hr {
+    width: 90%;
+}
+a{
+    text-decoration: none;
+    color:#fffcf1;
+}
+.content{
+    display: none;
+}/*
+        tester content tool 
+*/
+.container-aptitudes {
+    display: inline;
+    text-align: center;
+}
+.container-aptitudes p {
+    padding: 1%;
+    font-size: 25px;
+}
+.container-aptitudes hr{
+    width: 70%;
+}
+.aptitude-description-container{
+    display: flex;
+    justify-content: space-around;
+}
+.chat-div-container{
+    display: inline;
+    text-align: center;
+}
+
 .respon-container-flex{
     display: none;
 }
 .flex-box-container {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(59, 59, 59);
+    background-color: #171717;
     text-align: center;
     align-items: center;
     align-content: center;
@@ -50,6 +82,8 @@ body{
     align-items: center;
     align-content: center;
     justify-content: center;
+    margin-bottom: 3%;
+    margin-top: 3%;
 }
 .aside-flex-container img,.description{
     width: 50%;
@@ -79,7 +113,22 @@ body{
 .menubar img {
     max-width: 5%;
 }
+.chat-div-containerdonut{
+    display: inline;
+    text-align: center;
+    width: 90%;
+}
+.chat-div-containerDonut{
+    margin-top: 3%;
+    text-align: center;    
+}
 @media screen and (max-width: 1400px){
+    .aptitude-description-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
     .flex-box-container {
         display: none;
         background-color: rgb(59, 59, 59);
@@ -115,15 +164,7 @@ body{
     }
 }
 
-
-
-
-
-
-
-
-
-
+/*Still Working on */
 
 
 

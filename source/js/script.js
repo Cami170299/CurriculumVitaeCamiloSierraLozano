@@ -12,6 +12,9 @@ function hideMenu() {
     document.getElementById('displayManuRespNone').style.display = 'none'
 };
 
+//animations 
+
+
 
 // Set a callback to run when the Google Visualization API is loaded.
 google.charts.setOnLoadCallback(drawChartSpanish);
@@ -131,3 +134,29 @@ function drawChartProgramming() {
       var chart = new google.visualization.PieChart(document.getElementById('chart_div-Pr'));
       chart.draw(data, options);
 }
+function aptitudesDisplayOne () {
+    document.getElementById('aptitudeOne').style.display = 'inline'
+};
+function aptitudesDisplayTwo () {
+    document.getElementById('aptitudeTwo').style.display = 'inline'
+};
+function aptitudesDisplayThree () {
+    document.getElementById('aptitudeThree').style.display = 'inline'
+};
+function aptitudesDisplayFour () {
+    document.getElementById('aptitudeFour').style.display = 'inline'
+};
+
+
+function aptitudesHideOne () {
+    document.getElementById('aptitudeOne').style.display = 'none'
+};
+function aptitudesHideTwo () {
+    document.getElementById('aptitudeTwo').style.display = 'none'
+};
+function aptitudesHideThree () {
+    document.getElementById('aptitudeThree').style.display = 'none'
+};
+function aptitudesHideFour () {
+    document.getElementById('aptitudeFour').style.display = 'none'
+};

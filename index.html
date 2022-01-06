@@ -22,49 +22,10 @@
         <title>Camilo Sierra</title>
     </head>
     <body>
-        <div class="content">
+        
 
-            <div
-                class="respon-container-flex"
-                id="displayManuRespFlex"
-                onclick="displayMenu()">
-                <p class="tittle-resp-menu">CAMILO SIERRA</p>
-                <img src="source/media/menu.png" alt="menuslide">
-            </div>
 
-            <nav>
-                <div class="flex-box-container" id="flexBoxContainer">
-                    <a class="menubar" href="#languages-take">
-                        <div>
-                            LANGUAGES
-                        </div>
-                    </a>
-                    <a class="menubar" href="#languages-take">
-                        <div>
-                            APTITUDES
-                        </div>
-                    </a>
-                    <a class="menubar" href="#languages-take">
-                        <div>
-                            EXPERIENCE
-                        </div>
-                    </a>
-                    <a class="menubar" href="#languages-take">
-                        <div>
-                            EDUCATION
-                        </div>
-                    </a>
-                    <a class="menubar" href="#languages-take">
-                        <div>
-                            PROYECTS & WORK
-                        </div>
-                    </a>
-                    <div id="displayManuRespNone" class="menubar" onclick="hideMenu()">
-                        <img src="source/media/upload.png" alt="upload">
-                    </div>
-                </div>
-            </nav>
-
+            <div class="content">
             <div class="flex-box-container-body">
                 <video
                     src="source/media/sign.mp4"
@@ -83,7 +44,7 @@
                     I’m a double technical degree in Marketing, business administration and
                     Computing Support programmer with enthusiasm and spirit of growth.
                 </div>
-                <img
+                <img id="animation"
                     src="https://raw.githubusercontent.com/Cami170299/CurriculumVitaeCamiloSierraLozano/main/source/media/Decription.jpg"
                     alt="FileCorrupted">
 
@@ -125,34 +86,98 @@
     </div>
 
 
-<div class="aptitudes-container">
-
     <div class="aptitudes-title">
         <hr>
         <p>APTITUDES</p>
         <hr>
     </div>
+
+
+
+<div class="aptitudes-container">
     <div class="aptitudes-list">
         <div class="aptitudes-list-image">
-            <img src="" alt="service-img">
+            <img src="https://raw.githubusercontent.com/Cami170299/CurriculumVitaeCamiloSierraLozano/main/source/media/global-services.png" alt="service-img">
             <p>Customer Service</p>
-        </div>
+            <div id="displayForOne" onclick="aptitudesDisplayOne()"><img  src="https://raw.githubusercontent.com/Cami170299/CurriculumVitaeCamiloSierraLozano/main/source/media/down.png" alt="scroll-down-img"> </div>  
+            <div  id="aptitudeOne" class="aptitude-One">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequuntur optio dicta minus harum similique architecto cupiditate 
+                soluta laborum ipsum. Saepe, expedita pariatur! Quae voluptates perferendis ab eos tenetur asperiores?</p>
+            <div id="hideForOne" onclick="aptitudesHideOne()" class="size-up"> <img src="source/media/upload.png" alt="up-image"> </div>
+            </div>
+            </div>
         <div class="aptitudes-list-image">
-            <img src="" alt="service-img">
+            <img src="https://raw.githubusercontent.com/Cami170299/CurriculumVitaeCamiloSierraLozano/main/source/media/social-marketing.png" alt="service-img">
             <p>Marketing</p>
-        </div>
+            <div id="displayForTwo" onclick="aptitudesDisplayTwo()"><img  src="https://raw.githubusercontent.com/Cami170299/CurriculumVitaeCamiloSierraLozano/main/source/media/down.png" alt="scroll-down-img"> </div>  
+            <div  id="aptitudeTwo" class="aptitude-Two">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequuntur optio dicta minus harum similique architecto cupiditate 
+                soluta laborum ipsum. Saepe, expedita pariatur! Quae voluptates perferendis ab eos tenetur asperiores?</p>
+            <div id="hideForTwo" onclick="aptitudesHideTwo()" class="size-up"> <img src="source/media/upload.png" alt="up-image"> </div>
+            </div>
+            </div>
         <div class="aptitudes-list-image">
-            <img src="" alt="service-img">
+            <img src="https://raw.githubusercontent.com/Cami170299/CurriculumVitaeCamiloSierraLozano/main/source/media/online-shop.png" alt="service-img">
             <p>E-Commerce</p>
-        </div>
+            <div id="displayForThree" onclick="aptitudesDisplayThree()"><img  src="https://raw.githubusercontent.com/Cami170299/CurriculumVitaeCamiloSierraLozano/main/source/media/down.png" alt="scroll-down-img"> </div>  
+            <div id="aptitudeThree" class="aptitude-Three">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequuntur optio dicta minus harum similique architecto cupiditate 
+                soluta laborum ipsum. Saepe, expedita pariatur! Quae voluptates perferendis ab eos tenetur asperiores?</p>
+            <div id="hideForThree" onclick="aptitudesHideThree()" class="size-up"> <img src="source/media/upload.png" alt="up-image"> </div>
+            </div>
+            </div>
         <div class="aptitudes-list-image">
-            <img src="" alt="service-img">
-            <p>Selling</p>
-        </div>
+            <img src="https://raw.githubusercontent.com/Cami170299/CurriculumVitaeCamiloSierraLozano/main/source/media/b2b.png" alt="service-img">
+            <p>Sales</p>
+            <div id="displayForFour" onclick="aptitudesDisplayFour()"><img  src="https://raw.githubusercontent.com/Cami170299/CurriculumVitaeCamiloSierraLozano/main/source/media/down.png" alt="scroll-down-img"></div>
+            <div id="aptitudeFour" class="aptitude-Four">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequuntur optio dicta minus harum similique architecto cupiditate 
+                soluta laborum ipsum. Saepe, expedita pariatur! Quae voluptates perferendis ab eos tenetur asperiores?</p>
+            <div id="hideForFour" onclick="aptitudesHideFour()" class="size-up"> <img src="source/media/upload.png" alt="up-image"> </div>
+            </div>
+            </div>
     </div>
 
+    
+    <div
+    class="respon-container-flex"
+    id="displayManuRespFlex"
+    onclick="displayMenu()">
+    <p class="tittle-resp-menu">CAMILO SIERRA</p>
+    <img src="source/media/menu.png" alt="menuslide">
 </div>
-
+    <nav>
+        <div class="flex-box-container" id="flexBoxContainer">
+            <a class="menubar" href="#languages-take">
+                <div>
+                    LANGUAGES
+                </div>
+            </a>
+            <a class="menubar" href="#languages-take">
+                <div>
+                    APTITUDES
+                </div>
+            </a>
+            <a class="menubar" href="#languages-take">
+                <div>
+                    EXPERIENCE
+                </div>
+            </a>
+            <a class="menubar" href="#languages-take">
+                <div>
+                    EDUCATION
+                </div>
+            </a>
+            <a class="menubar" href="#languages-take">
+                <div>
+                    PROYECTS & WORK
+                </div>
+            </a>
+            <div id="displayManuRespNone" class="menubar" onclick="hideMenu()">
+                <img src="source/media/upload.png" alt="upload">
+            </div>
+        </div>
+    </nav>
 
 
 

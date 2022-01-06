@@ -1,20 +1,21 @@
-body{
-    padding: 0px;
-    margin: 0px;
+body {
+    padding: 0;
+    margin: 0;
     font-family: 'Montserrat', sans-serif;
-    color:#fffcf1;
-    background-color: rgb(0, 0, 0);
+    color: #fffcf1;
+    background-color: rgb(233, 64, 64);
 }
 hr {
     width: 90%;
 }
-a{
+a {
     text-decoration: none;
-    color:#fffcf1;
+    color: #fffcf1;
 }
-.content{
+.content {
     display: none;
-}/*
+}
+/*
         tester content tool 
 */
 .container-aptitudes {
@@ -25,19 +26,19 @@ a{
     padding: 1%;
     font-size: 25px;
 }
-.container-aptitudes hr{
+.container-aptitudes hr {
     width: 70%;
 }
-.aptitude-description-container{
+.aptitude-description-container {
     display: flex;
     justify-content: space-around;
 }
-.chat-div-container{
+.chat-div-container {
     display: inline;
     text-align: center;
 }
 
-.respon-container-flex{
+.respon-container-flex {
     display: none;
 }
 .flex-box-container {
@@ -48,16 +49,16 @@ a{
     align-items: center;
     align-content: center;
 }
-.pupUpMenuBar{
+.pupUpMenuBar {
     display: none;
     align-items: center;
     text-align: center;
 }
-.respon-container-flex img{
+.respon-container-flex img {
     width: 5%;
     margin: 2%;
 }
-.flex-box-container-body{
+.flex-box-container-body {
     display: flex;
     background-color: rgb(0, 0, 0);
     flex-direction: column;
@@ -66,15 +67,15 @@ a{
     align-content: center;
     justify-content: center;
 }
-.flex-box-container-body > p{
+.flex-box-container-body > p {
     font-size: 3vh;
     font-weight: 100;
 }
-.asidetitle{
+.asidetitle {
     font-size: 3vh;
     font-weight: 500;
 }
-.aside-flex-container{
+.aside-flex-container {
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
@@ -85,67 +86,68 @@ a{
     margin-bottom: 3%;
     margin-top: 3%;
 }
-.aside-flex-container img,.description{
+.aside-flex-container img,
+.description {
     width: 50%;
 }
-.description{
-    margin:10%;
+.description {
+    margin: 10%;
 }
-.flex-box-container-body > hr{
+.flex-box-container-body > hr {
     background-color: cornsilk;
     margin-top: 3%;
     width: 30%;
 }
-.menubar{
+.menubar {
     padding: 20px;
     width: 100%;
 }
-.menubar:hover{
+.menubar:hover {
     background-color: rgb(37, 37, 37);
 }
 .video-st {
     max-width: 80%;
     padding-top: 3%;
 }
-#displayManuRespNone{
+#displayManuRespNone {
     display: none;
 }
 .menubar img {
     max-width: 5%;
 }
-.chat-div-containerdonut{
+.chat-div-containerdonut {
     display: inline;
     text-align: center;
     width: 90%;
 }
-.chat-div-containerDonut{
+.chat-div-containerDonut {
     margin-top: 3%;
-    text-align: center;    
+    text-align: center;
 }
 
- .container-paichart{
+.container-paichart {
     width: 100%;
-     display: flex;
-     justify-content: space-around;
-     text-align: center;
-     align-self: center;
-     align-content: center;
- }
- .aside-text-piechart{
-     width: 50%;
-     justify-content: space-around;
-     text-align: center;
-     align-self: center;
-     align-content: center;
- }
- .container-paichart hr{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+}
+.aside-text-piechart {
+    width: 50%;
+    justify-content: space-around;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+}
+.container-paichart hr {
     display: none;
- }
-@media screen and (max-width: 1400px){
-    #chart_div-Pr{
+}
+@media screen and (max-width: 1400px) {
+    #chart_div-Pr {
         width: 100%;
     }
-    .aptitude-description-container{
+    .aptitude-description-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -153,21 +155,21 @@ a{
         align-items: center;
         align-content: center;
     }
-    .dfkjgb{
+    .dfkjgb {
         width: 100%;
     }
-    .container-paichart{
+    .container-paichart {
         width: 100%;
-         display: flex;
-         flex-wrap: wrap;
-         justify-content: space-around;
-         text-align: center;
-         align-self: center;
-         align-content: center;
-     }    
-     .container-paichart hr{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+        align-self: center;
+        align-content: center;
+    }
+    .container-paichart hr {
         display: block;
-     }
+    }
     .flex-box-container {
         display: none;
         background-color: rgb(59, 59, 59);
@@ -177,11 +179,11 @@ a{
         align-items: center;
         align-content: center;
     }
-    .tittle-resp-menu{
+    .tittle-resp-menu {
         width: 50%;
         font-size: 2.5vh;
     }
-    .aside-flex-container{
+    .aside-flex-container {
         background-color: rgb(0, 0, 0);
         display: flex;
         flex-wrap: wrap;
@@ -191,10 +193,11 @@ a{
         align-content: center;
         justify-content: center;
     }
-    .aside-flex-container img,.description{
+    .aside-flex-container img,
+    .description {
         width: 100%;
     }
-    .respon-container-flex{
+    .respon-container-flex {
         display: flex;
         justify-content: space-around;
         text-align: center;
@@ -203,23 +206,31 @@ a{
     }
 }
 
+
+
+
+.aptitudes-container{
+    background-color: chartreuse;
+}
+.aptitudes-title{
+    display: inline;
+    text-align: center;
+    justify-content: space-around;
+    /*hr 705*/
+}
+.aptitudes-list{
+    background-color: darkgoldenrod;
+}
+.aptitudes-list-image{
+    background-color: darkviolet;
+}
+
+
+
+
+
+
 /*Still Working on */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
     display: none;

@@ -231,7 +231,7 @@ width: 100%;
 #phoneDisplay{
     display: none;
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1000px) {
     .containe-experiences{
         width: 100%;
         margin-top: 3%;

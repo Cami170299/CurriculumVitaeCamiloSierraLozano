@@ -272,20 +272,36 @@ width: 100%;
         color: black;
         transition-duration: 0.3s;
 }
-.project-works{
-    width: 50%;
-    background-image: url("https://raw.githubusercontent.com/Cami170299/CurriculumVitaeCamiloSierraLozano/main/source/media/codebackground.PNG");
-}
 .project-container {
-    display: inline;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.project-works{
+    width: 20%;
+    border-radius: 50px;
+    background-image: url("https://raw.githubusercontent.com/Cami170299/CurriculumVitaeCamiloSierraLozano/main/source/media/codebackground.PNG");
 }
 .project-works img{
     margin-top: 5%;
- width: 100%;    
+    margin-bottom: 5%;
+    width: 100%;    
+}
+.project-works img:hover{
+    width: 101%;  
+    transition-duration:0.3s ;  
 }
 
 @media screen and (max-width: 750px) {
+    .project-container p{
+        display: none;    
+    }
+    .project-works{
+        width: 80%;
+    }
     .education-description {
         width: 100%;
         display: flex;
@@ -458,19 +474,13 @@ width: 100%;
         margin: 7%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-/*Still Working on */
-
 footer {
-    display: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+    color:rgb(59, 59, 59);
+}
+footer a{
+    font-size: 10px;
+    color:rgb(59, 59, 59);
 }

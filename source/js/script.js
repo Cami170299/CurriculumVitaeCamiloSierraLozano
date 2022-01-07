@@ -1,16 +1,12 @@
 // Load the Visualization API and the corechart package.
 google.charts.load('current', {packages: ['corechart']});
 function displayMenu(){
-    document.getElementById('flexBoxContainer').style.display = 'flex'
-    document.getElementById('displayManuRespNone').style.display = 'flex'
-    document.getElementById('flex-box-container').style.justifyContent = 'space-around'
-
+    document.getElementById('displaymenudropdown').style.display = 'inline'
 };
 function hideMenu() {
-    document.getElementById('flexBoxContainer').style.display = 'none'
-    document.getElementById('displayManuRespFlex').style.display = 'flex'
-    document.getElementById('displayManuRespNone').style.display = 'none'
+    document.getElementById('displaymenudropdown').style.display = 'none'
 };
+
 //animations 
 // Set a callback to run when the Google Visualization API is loaded.
 google.charts.setOnLoadCallback(drawChartSpanish);
@@ -26,7 +22,7 @@ function drawChartEnglish() {
         ["Language", "Knowlage", { role: "style" } ],
         ["", 85, "#303030"]
     ]);
-    
+
     var options = {
         'legend':'left',
         'backgroundColor': 'none',

@@ -7,7 +7,7 @@
         <meta name="description" content="Programmer">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel = "icon" href = 
-        "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png" 
+        "https://raw.githubusercontent.com/Cami170299/CurriculumVitaeCamiloSierraLozano/main/source/media/title-logo.png" 
                 type = "image/x-icon">
         <link
             rel="preconnect"
@@ -252,7 +252,7 @@ Approaching clients to develop new cross-selling strategies and B2B Selling.
                         Title: Commercial Communicator Technician <br>
                         
                     </p>
-                    <a href="https://www.sena.edu.co/es-co/Paginas/default.aspx" target="_blank">Web Page</a>
+                    <a href="https://www.teccart.qc.ca/" target="_blank">Web Page</a>
                 </div>
             </div>
             <div class="education-description">
@@ -267,7 +267,7 @@ Approaching clients to develop new cross-selling strategies and B2B Selling.
                         Coursing... <br>
                         Title: Computer Support Technitian. <br>
                     </p>
-                    <a href="https://www.teccart.qc.ca/" target="_blank">Web Page</a>
+                    <a href="https://www.sena.edu.co/es-co/Paginas/default.aspx" target="_blank">Web Page</a>
                 </div>
             </div>
         </div>
@@ -290,14 +290,54 @@ Approaching clients to develop new cross-selling strategies and B2B Selling.
 </div>
 
 
-        <div
-            class="respon-container-flex"
-            id="displayManuRespFlex"
-            onclick="displayMenu()">
+<!--drop down manu-->
+
+        <div class="respon-container-flex">
             <p class="tittle-resp-menu">CAMILO SIERRA</p>
-            <img src="source/media/menu.png" alt="menuslide">
+            <img  id="displayManuRespFlex" src="source/media/menu.png" alt="menuslide" onclick="displayMenu()" >
         </div>
-        <nav>
+
+
+<nav class="dropdownmanushowphone" id="displaymenudropdown">
+    <div class="drop-down-menu">
+        <a class="menubar-dropdown" href="#languages-take" onclick="hideMenu()">
+            
+                LANGUAGES
+            
+        </a>
+        <a class="menubar-dropdown" href="#aptitudes-take" onclick="hideMenu()">
+            
+                APTITUDES
+           
+        </a>
+        <a class="menubar-dropdown" href="#experience-take" onclick="hideMenu()">
+           
+                EXPERIENCE
+           
+        </a>
+        <a class="menubar-dropdown" href="#education-take" onclick="hideMenu()">
+           
+                EDUCATION
+           
+        </a>
+        <a class="menubar-dropdown" href="#work-pro-take" onclick="hideMenu()">
+          
+                PROYECTS & WORK
+          
+        </a>
+        <div class="hidemenudropdown" onclick="hideMenu()">
+            <img src="source/media/upload.png" alt="upload">
+        </div>
+    </div>
+</nav>
+
+
+
+
+
+
+
+        <nav class="phone-display-none">
             <div class="flex-box-container" id="flexBoxContainer">
                 <a class="menubar" href="#languages-take">
                     <div>
@@ -324,9 +364,7 @@ Approaching clients to develop new cross-selling strategies and B2B Selling.
                         PROYECTS & WORK
                     </div>
                 </a>
-                <div id="displayManuRespNone" class="menubar" onclick="hideMenu()">
-                    <img src="source/media/upload.png" alt="upload">
-                </div>
+                <img class="lang" src="" alt="">
             </div>
         </nav>
 

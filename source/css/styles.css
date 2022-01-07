@@ -96,7 +96,11 @@ a {
 }
 .menubar {
     padding: 20px;
-    width: 100%;
+    width:18%;
+}
+.lang{
+    margin: 2%;
+    width: 3%;
 }
 .menubar:hover {
     background-color: rgb(37, 37, 37);
@@ -104,9 +108,6 @@ a {
 .video-st {
     max-width: 80%;
     padding-top: 3%;
-}
-#displayManuRespNone {
-    display: none;
 }
 .menubar img {
     max-width: 5%;
@@ -295,7 +296,42 @@ width: 100%;
     transition-duration:0.3s ;  
 }
 
+.dropdownmanushowphone{
+    display: none;
+}
+
+
+
+
+
+
 @media screen and (max-width: 750px) {
+  
+  
+    .dropdownmanushowphone{
+        width: 100%;
+        display: none;
+    }
+    .drop-down-menu{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: rgb(20, 20, 20);
+    }
+    .menubar-dropdown{
+        width: 100%;
+        padding: 4%;
+    }
+    .hidemenudropdown img{
+        width: 20%;
+    }
+    
+    .phone-display-none{
+        display: none;
+    }
     .project-container p{
         display: none;    
     }

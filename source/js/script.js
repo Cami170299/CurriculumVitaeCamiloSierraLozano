@@ -11,11 +11,7 @@ function hideMenu() {
     document.getElementById('displayManuRespFlex').style.display = 'flex'
     document.getElementById('displayManuRespNone').style.display = 'none'
 };
-
 //animations 
-
-
-
 // Set a callback to run when the Google Visualization API is loaded.
 google.charts.setOnLoadCallback(drawChartSpanish);
 google.charts.setOnLoadCallback(drawChartFr);
@@ -30,7 +26,6 @@ function drawChartEnglish() {
         ["Language", "Knowlage", { role: "style" } ],
         ["", 85, "#303030"]
     ]);
-
     var options = {
         'legend':'left',
         'backgroundColor': 'none',

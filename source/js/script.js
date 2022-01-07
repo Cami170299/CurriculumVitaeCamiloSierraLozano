@@ -26,6 +26,7 @@ function drawChartEnglish() {
         ["Language", "Knowlage", { role: "style" } ],
         ["", 85, "#303030"]
     ]);
+    
     var options = {
         'legend':'left',
         'backgroundColor': 'none',

@@ -96,11 +96,52 @@ a {
 }
 .menubar {
     padding: 20px;
-    width:18%;
+    width:16%;
 }
 .lang{
-    margin: 2%;
-    width: 3%;
+    margin: 1%;
+    width: 2%;
+}
+#hidelang{
+    display: none;
+}
+.langmanu{
+    width: 100%;
+}
+.langmenulanguages div{
+    margin-left: 94%;
+    display: flex;
+    justify-content: space-around;
+    width: 2%;
+    padding: 2%;
+    background-color: #202020;
+}
+.langdropup img{
+    width: 100%;
+}
+.langmanu{
+ display: none;
+}
+
+.dropdownlangconainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #202020;
+    text-align: center;
+}
+.langdropdown img{
+    width: 20%;
+}
+.dropdownlangconainer a{
+    width: 100%;
+    padding: 5%;
+    background-color: #202020;
+}
+.dropdownlang{
+    width: 100%;
+    display: none;
 }
 .menubar:hover {
     background-color: rgb(37, 37, 37);

@@ -6,6 +6,18 @@ function displayMenu(){
 function hideMenu() {
     document.getElementById('displaymenudropdown').style.display = 'none'
 };
+function showlang() {
+    document.getElementById('langmenuid').style.display = 'block'
+}
+function hidelang() {
+    document.getElementById('langmenuid').style.display = 'none'
+}
+function  displayMenulangdrop() {
+    document.getElementById('dropdownlangid').style.display = 'block'
+}
+function  hideMenulangdrop() {
+    document.getElementById('dropdownlangid').style.display = 'none'
+}
 
 //animations 
 // Set a callback to run when the Google Visualization API is loaded.

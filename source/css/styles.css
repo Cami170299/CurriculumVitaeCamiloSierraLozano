@@ -203,7 +203,7 @@ width: 100%;
 }
 .experiences img{
     width: 45%;
-    border-radius: 5px;
+    border-radius: 1000px;
 }
 .experience-des-cont{
     width: 40%;
@@ -221,7 +221,7 @@ width: 100%;
 }
 .experience-web-page:hover{
     width: 120%;
-    border: solid 1px white ;
+    border: solid 1px rgb(0, 0, 0) ;
     padding: 5%;
     border-radius: 20px;
         color: black;
@@ -231,7 +231,55 @@ width: 100%;
 #phoneDisplay{
     display: none;
 }
-@media screen and (max-width: 1000px) {
+
+
+
+
+.education-container{
+    width: 90%;
+    display: inline;
+    background-color: red;
+}
+.education-description {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;    
+    background-color: blue;
+}
+.education-description img{
+    width: 30%;
+    background-color: blue;
+}
+.des-edu-container{
+    width: 50%;
+    background-color: green;
+}
+.des-edu-container div{
+    width: 13%;
+    padding: 5px;
+    margin-left: 42.5%;
+    border: solid 1px white ;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+}.des-edu-container div:hover{
+    width: 13%;
+    padding: 5px;
+    margin-left: 42.5%;
+    border: solid 1px rgb(0, 0, 0) ;
+    border-radius: 20px;
+    background-color: rgb(59, 59, 59);
+    transition-duration: 0.3s;
+    color: black;
+}
+
+
+
+
+
+
+@media screen and (max-width: 750px) {
     .containe-experiences{
         width: 100%;
         margin-top: 3%;
@@ -265,7 +313,7 @@ width: 100%;
     }
     .experiences img{
         width: 100%;
-        border-radius: 5px;
+        border-radius: 50px;
     }
     .experience-des-cont{
         width: 100%;

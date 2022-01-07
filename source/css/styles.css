@@ -272,7 +272,18 @@ width: 100%;
         color: black;
         transition-duration: 0.3s;
 }
-
+.project-works{
+    width: 50%;
+    background-image: url("https://raw.githubusercontent.com/Cami170299/CurriculumVitaeCamiloSierraLozano/main/source/media/codebackground.PNG");
+}
+.project-container {
+    display: inline;
+    width: 100%;
+}
+.project-works img{
+    margin-top: 5%;
+ width: 100%;    
+}
 
 @media screen and (max-width: 750px) {
     .education-description {

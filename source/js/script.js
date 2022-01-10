@@ -138,29 +138,67 @@ function drawChartProgramming() {
       var chart = new google.visualization.PieChart(document.getElementById('chart_div-Pr'));
       chart.draw(data, options);
 }
+document.getElementById('aptitudeOne').style.display = 'none'
+document.getElementById('aptitudeTwo').style.display = 'none'
+document.getElementById('aptitudeThree').style.display = 'none'
+document.getElementById('aptitudeFour').style.display = 'none'
+
 function aptitudesDisplayOne () {
-    document.getElementById('aptitudeOne').style.display = 'inline'
+
+    var divStatus = document.getElementById('aptitudeOne').style.display
+    var diplayDiv = 'block'
+    var hideDiv = 'none'
+    if (divStatus == diplayDiv){
+        document.getElementById('aptitudeOne').style.display = hideDiv
+    }
+    else  {
+        document.getElementById('aptitudeOne').style.display = diplayDiv
+        document.getElementById('aptitudeTwo').style.display = hideDiv
+        document.getElementById('aptitudeThree').style.display = hideDiv
+        document.getElementById('aptitudeFour').style.display = hideDiv
+    }
 };
 function aptitudesDisplayTwo () {
-    document.getElementById('aptitudeTwo').style.display = 'inline'
+
+    var divStatus = document.getElementById('aptitudeTwo').style.display
+    var diplayDiv = 'block'
+    var hideDiv = 'none'
+    if (divStatus == diplayDiv){
+        document.getElementById('aptitudeTwo').style.display = hideDiv
+    }
+    else  {
+        document.getElementById('aptitudeTwo').style.display = diplayDiv
+        document.getElementById('aptitudeThree').style.display = hideDiv
+        document.getElementById('aptitudeFour').style.display = hideDiv
+        document.getElementById('aptitudeOne').style.display = hideDiv
+    }
 };
 function aptitudesDisplayThree () {
-    document.getElementById('aptitudeThree').style.display = 'inline'
+    var divStatus = document.getElementById('aptitudeThree').style.display
+    var diplayDiv = 'block'
+    var hideDiv = 'none'
+    if (divStatus == diplayDiv){
+        document.getElementById('aptitudeThree').style.display = hideDiv
+    }
+    else  {
+        document.getElementById('aptitudeThree').style.display = diplayDiv
+        document.getElementById('aptitudeTwo').style.display = hideDiv
+        document.getElementById('aptitudeOne').style.display = hideDiv
+        document.getElementById('aptitudeFour').style.display = hideDiv
+    }
 };
 function aptitudesDisplayFour () {
-    document.getElementById('aptitudeFour').style.display = 'inline'
-};
 
-
-function aptitudesHideOne () {
-    document.getElementById('aptitudeOne').style.display = 'none'
-};
-function aptitudesHideTwo () {
-    document.getElementById('aptitudeTwo').style.display = 'none'
-};
-function aptitudesHideThree () {
-    document.getElementById('aptitudeThree').style.display = 'none'
-};
-function aptitudesHideFour () {
-    document.getElementById('aptitudeFour').style.display = 'none'
+    var divStatus = document.getElementById('aptitudeFour').style.display
+    var diplayDiv = 'block'
+    var hideDiv = 'none'
+    if (divStatus == diplayDiv){
+        document.getElementById('aptitudeFour').style.display = hideDiv
+    }
+    else  {
+        document.getElementById('aptitudeFour').style.display = diplayDiv
+        document.getElementById('aptitudeTwo').style.display = hideDiv
+        document.getElementById('aptitudeThree').style.display = hideDiv
+        document.getElementById('aptitudeOne').style.display = hideDiv
+    }
 };

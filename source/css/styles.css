@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     padding: 0;
     margin: 0;
@@ -254,6 +257,7 @@ width: 100%;
     align-items: center;
     justify-content: space-around;
 }
+
 .experience-web-page{
     width: 120%;
     border: solid 1px white ;
@@ -340,15 +344,93 @@ width: 100%;
 .dropdownmanushowphone{
     display: none;
 }
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+input[type=text]{
+    color: white;
+}
+input[type=email]{
+    color: white;
+}
+input{
+    transition-duration:1s ;
+    background-color: black;
+    border: none;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+    min-width: 30%;
+    border-bottom: 0.5px solid #8f8f8f;
+    margin-top: 5% ;
+} 
 
+input:focus{
+    background-color: rgb(56, 56, 56);
+    border-bottom: 0.7px solid #ffffff;
+    transition-duration:1s ;
+    min-width: 50%;
+}
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.message-style{
+ width: 100%;
+ min-height: 300px;
+ background-color: rgb(17, 17, 17);
 
-
+}
+.form-container-input {
+    width: 50% ;
+    margin-top: 5%;
+}
+.form-container-input button {
+    background-color: rgb(194, 194, 194);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    min-width: 10%;
+    transition-duration: 1s;
+    margin: 20px 45% ;
+}
+.form-container-input button:hover {
+    background-color: rgb(255, 255, 255);
+    min-width: 20%;
+}
 
 
 
 @media screen and (max-width: 750px) {
-  
-  
+    .contact-container{
+        max-width: 100%;
+    }
+    .form-container-input{
+        min-width: 100%;
+    }
+    .form-input-holder{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .form-input-holder input{
+        width: 90%;
+    }
+    .form-container-input button {
+        background-color: rgb(194, 194, 194);
+        border: none;
+        padding: 10px 30px;
+        border-radius: 5px;
+        cursor: pointer;
+        min-width: 10%;
+        transition-duration: 1s;
+        margin: 20px ;
+    }
     .dropdownmanushowphone{
         width: 100%;
         display: none;

@@ -278,11 +278,6 @@ width: 100%;
     display: none;
 }
 
-
-
-
-
-
 .education-container{
     width: 90%;
     display: inline;
@@ -401,10 +396,15 @@ input:focus{
     background-color: rgb(255, 255, 255);
     min-width: 20%;
 }
-
+.aptitudes-list-image div p{
+    padding: 30px;
+}
 
 
 @media screen and (max-width: 750px) {
+    .aptitudes-list-image div p{
+        padding: 0px;
+    }
     .contact-container{
         max-width: 100%;
     }

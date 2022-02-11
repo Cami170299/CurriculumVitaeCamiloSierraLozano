@@ -231,6 +231,7 @@ position: fixed;
 top: 0;
 width: 100%;
 }
+
 .containe-experiences{
     width: 100%;
     margin-top: 3%;
@@ -405,8 +406,7 @@ input:focus{
 #sider2{
     grid-area: sider2;
 }
-#sider3{
-    display: none; /*3 frame avilitate for yhe 3 project 
+#sider3{ /*3 frame avilitate for yhe 3 project 
     ================================================================================*/
     grid-area: sider3;
     margin-top: 0px;

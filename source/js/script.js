@@ -110,12 +110,12 @@ function drawChartProgramming() {
 
     var data = google.visualization.arrayToDataTable([
         ["Language", "Knowlage"],
-        ["HTML", 30],
-        ["CSS", 30],
+        ["HTML", 10],
+        ["CSS", 10],
         ["JS", 20],
-        ["SQL", 5],
+        ["SQL", 30],
         ["PY", 10],
-        ["React", 5]
+        ["Java", 20]
       ]);
 
     var options = {
